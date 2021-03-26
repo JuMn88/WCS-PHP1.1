@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="thanks.php" method="post">
+    <form action="thanks.php" method="post" novalidate>
         <div>
             <label for="lastname">Nom :</label>
             <input type="text" id="lastname" name="user_lastname">
@@ -41,6 +41,5 @@
             <button type="submit">Envoyer le message</button>
         </div>
     </form>
-
 </body>
 </html>
